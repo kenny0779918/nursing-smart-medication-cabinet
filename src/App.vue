@@ -93,7 +93,7 @@ function completePickup() {
 
       <section class="content">
         <template v-if="page === 'home'">
-          <div class="page-heading"><div><p class="eyebrow">護理站作業台</p><h1>午安，{{ user.name }}</h1><p>請選擇本次要執行的藥品作業。</p></div><span class="date-chip">2026 / 09 / 01</span></div>
+          <div class="page-heading"><div><p class="eyebrow">護理站作業台</p><h1>日安，{{ user.name }}</h1><p>請選擇本次要執行的藥品作業。</p></div><span class="date-chip">2026 / 09 / 01</span></div>
           <div class="metric-grid">
             <article><span class="metric-icon blue">⊞</span><div><small>今日取藥</small><strong>28</strong><span>筆</span></div></article>
             <article><span class="metric-icon teal">▦</span><div><small>藥品總庫存</small><strong>314</strong><span>件</span></div></article>
